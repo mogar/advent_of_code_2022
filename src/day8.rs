@@ -78,7 +78,6 @@ pub fn day8(fname: &str) -> () {
             }
         }
 
-        let y_max: u32 = forest[0].len() as u32;
         println!("forest size is {} by {}", forest.len(), forest[0].len());
         let mut num_visible: usize = 0;
         let mut max_score: u32 = 0;
